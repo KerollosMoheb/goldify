@@ -67,7 +67,7 @@ class GoldScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<GoldCubit>().fetchGoldPrices(),
         backgroundColor: Colors.amber[700],
-        child: const Icon(Icons.refresh),
+        child: const Icon(Icons.refresh, color: Colors.brown),
       ),
     );
   }
