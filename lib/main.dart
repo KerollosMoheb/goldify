@@ -41,10 +41,7 @@ class GoldApp extends StatelessWidget {
     return MaterialApp(
       title: 'أسعار الذهب',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.amber,
-        useMaterial3: true,
-      ),
+      theme: ThemeData(primarySwatch: Colors.amber, useMaterial3: true),
       home: const GoldScreen(),
     );
   }
